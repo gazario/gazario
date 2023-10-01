@@ -115,7 +115,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 
-
+/*
 .fh5co-section-title .fh5co-title,
 .fh5co-page-title .fh5co-title {
   font-family: "Unica One", sans-serif;
@@ -124,7 +124,7 @@ ul ul, ul ol, ol ul, ol ol {
   font-size: 30px;
   line-height: 40px;
   display: inline-block;
-}
+}*/
 .fh5co-section-title .fh5co-title-sub,
 .fh5co-page-title .fh5co-title-sub {
   font-size: 20px;
@@ -741,14 +741,14 @@ ul ul, ul ol, ol ul, ol ol {
   box-shadow: none !important;
   border: 2px solid #027BCE;
 }
-
+/*
 .fh5co-spacer {
   clear: both;
   position: relative;
   border: none;
   padding: 0;
   margin: 0;
-}
+}*/
 
 .fh5co-spacer-xlg {
   height: 150px;
@@ -776,10 +776,10 @@ ul ul, ul ol, ol ul, ol ol {
     height: 50px;
   }
 }
-
+/*
 .fh5co-spacer-sm {
   height: 50px;
-}
+}*/
 @media screen and (max-width: 768px) {
   .fh5co-spacer-sm {
     height: 20px;
@@ -794,10 +794,10 @@ ul ul, ul ol, ol ul, ol ol {
     height: 20px;
   }
 }
-
+/*
 .fh5co-spacer-xxs {
   height: 30px;
-}
+}*/
 
 .fh5co-letter-spacing {
   letter-spacing: 1px;
@@ -1153,11 +1153,11 @@ a > img.fh5co-align-center {
 .fh5co-link:hover > i {
   margin-right: 15px;
 }
-
+/*
 .fh5co-btn-other-option {
   float: left;
   margin-right: 10px;
-}
+}*/
 
 .fh5co-other-option {
   margin-top: 12px;
