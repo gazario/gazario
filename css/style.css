@@ -10,7 +10,6 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 26px;
-  color: #2e2e2e;
   font-weight: 300;
   letter-spacing: .05em;
 }
@@ -115,110 +114,7 @@ ul ul, ul ol, ol ul, ol ol {
   padding-left: 25px;
 }
 
-#fh5co-header {
-  margin-top: 7em;
-  margin-bottom: 7em;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-header {
-    margin-top: 4em;
-    margin-bottom: 2em;
-  }
-}
-#fh5co-header #fh5co-logo {
-  margin-bottom: .7em;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-header #fh5co-logo {
-    margin-bottom: .5em;
-  }
-}
-#fh5co-header #fh5co-main-nav {
-  display: block;
-  padding: 5px 0;
-  float: left;
-  margin-bottom: 1em;
-  width: 100%;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-header #fh5co-main-nav {
-    display: none;
-  }
-}
-#fh5co-header #fh5co-nav {
-  text-align: center;
-}
-#fh5co-header #fh5co-nav li {
-  display: inline-block;
-  list-style: none;
-  position: relative;
-  padding-right: 20px;
-}
-#fh5co-header #fh5co-nav li a {
-  font-weight: 700;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #2e2e2e;
-  padding: 4px 10px;
-}
-#fh5co-header #fh5co-nav li a:hover {
-  color: #027BCE;
-}
-#fh5co-header #fh5co-nav li::after {
-  position: absolute;
-  right: 2px;
-  top: 50%;
-  content: '';
-  height: 2px;
-  width: 15px;
-  background: #027BCE;
-}
-#fh5co-header #fh5co-nav li:last-child::after {
-  width: 0;
-  height: 0;
-  background: none;
-  content: '';
-}
-#fh5co-header #fh5co-nav li.active a {
-  color: #027BCE;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-header #fh5co-nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-  }
-  #fh5co-header #fh5co-nav ul {
-    padding: 0;
-    margin: 0;
-  }
-  #fh5co-header #fh5co-nav li {
-    display: block;
-    margin-bottom: 10px;
-    padding: 0 !important;
-    margin-left: -50px;
-    opacity: 0;
-  }
-  #fh5co-header #fh5co-nav li::after {
-    background: transparent;
-    width: 0;
-    height: 0;
-    background: none;
-    content: '';
-  }
-  #fh5co-header #fh5co-nav li a {
-    display: block;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-}
+
 
 .fh5co-section-title .fh5co-title,
 .fh5co-page-title .fh5co-title {
