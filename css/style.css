@@ -17,17 +17,17 @@ body {
 
 ::-webkit-selection {
   color: #ffffff;
-  background: #0000FF;
+  background: #027BCE;
 }
 
 ::-moz-selection {
   color: #ffffff;
-  background: #0000FF;
+  background: #027BCE;
 }
 
 ::selection {
   color: #ffffff;
-  background: #0000FF;
+  background: #027BCE;
 }
 
 a {
@@ -163,7 +163,7 @@ ul ul, ul ol, ol ul, ol ol {
   padding: 4px 10px;
 }
 #fh5co-header #fh5co-nav li a:hover {
-  color: #0000FF;
+  color: #027BCE;
 }
 #fh5co-header #fh5co-nav li::after {
   position: absolute;
@@ -172,7 +172,7 @@ ul ul, ul ol, ol ul, ol ol {
   content: '';
   height: 2px;
   width: 15px;
-  background: #0000FF;
+  background: #027BCE;
 }
 #fh5co-header #fh5co-nav li:last-child::after {
   width: 0;
@@ -181,7 +181,7 @@ ul ul, ul ol, ol ul, ol ol {
   content: '';
 }
 #fh5co-header #fh5co-nav li.active a {
-  color: #0000FF;
+  color: #027BCE;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header #fh5co-nav {
@@ -256,7 +256,7 @@ ul ul, ul ol, ol ul, ol ol {
   left: 0;
   width: 30px;
   height: 2px;
-  background: #0000FF;
+  background: #027BCE;
 }
 
 .fh5co-features .fh5co-feature {
@@ -268,7 +268,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 .fh5co-features .fh5co-feature .fh5co-feature-icon i {
   font-size: 50px;
-  color: #0000FF;
+  color: #027BCE;
 }
 .fh5co-features .fh5co-feature .fh5co-feature-title {
   font-size: 20px;
@@ -353,7 +353,7 @@ ul ul, ul ol, ol ul, ol ol {
   bottom: 0;
   height: 2px;
   width: 30px;
-  background: #0000FF;
+  background: #027BCE;
 }
 .fh5co-press .fh5co-press-item .fh5co-press-img {
   float: right;
@@ -375,7 +375,7 @@ ul ul, ul ol, ol ul, ol ol {
 #fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
   outline: none;
   color: #2e2e2e;
-  border-bottom: 1px solid #0000FF;
+  border-bottom: 1px solid #027BCE;
 }
 #fh5co-footer ul {
   padding: 0;
@@ -464,7 +464,7 @@ ul ul, ul ol, ol ul, ol ol {
   border-bottom: none !important;
 }
 .fh5co-social a:hover i, .fh5co-social a:active i, .fh5co-social a:focus i {
-  color: #0000FF;
+  color: #027BCE;
 }
 
 .fh5co-nav-toggle {
@@ -626,7 +626,7 @@ ul ul, ul ol, ol ul, ol ol {
   margin-top: -65px;
 }
 .owl-carousel .owl-controls .owl-nav .owl-next:hover i:before {
-  color: #0000FF;
+  color: #027BCE;
 }
 
 .owl-carousel .owl-controls .owl-nav .owl-prev {
@@ -637,7 +637,7 @@ ul ul, ul ol, ol ul, ol ol {
   margin-top: 5px;
 }
 .owl-carousel .owl-controls .owl-nav .owl-prev:hover i:before {
-  color: #0000FF;
+  color: #027BCE;
 }
 
 .owl-carousel-posts .owl-controls .owl-nav .owl-next i,
@@ -706,12 +706,12 @@ ul ul, ul ol, ol ul, ol ol {
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
-  border: 2px solid #0000FF;
+  border: 2px solid #027BCE;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: none;
-  border: 2px solid #0000FF;
+  border: 2px solid #027BCE;
 }
 
 .quote {
@@ -789,8 +789,8 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 .btn-primary {
-  background: #0000FF;
-  border: 2px solid #0000FF;
+  background: #027BCE;
+  border: 2px solid #027BCE;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
   background: #61dd67;
@@ -843,7 +843,7 @@ ul ul, ul ol, ol ul, ol ol {
 .form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
   box-shadow: none !important;
-  border: 2px solid #0000FF;
+  border: 2px solid #027BCE;
 }
 
 .fh5co-spacer {
@@ -928,7 +928,7 @@ ul ul, ul ol, ol ul, ol ol {
   left: 0;
   width: 30px;
   height: 2px;
-  background: #0000FF;
+  background: #027BCE;
 }
 
 .form-group {
@@ -940,7 +940,7 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 .fh5co-call-to-action {
-  background-color: #0000FF;
+  background-color: #027BCE;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -989,7 +989,7 @@ ul ul, ul ol, ol ul, ol ol {
   cursor: pointer;
 }
 .fh5co-accordion .panel-heading .accordion-toggle {
-  color: #0000FF;
+  color: #027BCE;
 }
 .fh5co-accordion .panel-heading .accordion-toggle:after {
   font-family: 'themify';
@@ -1047,7 +1047,7 @@ ul ul, ul ol, ol ul, ol ol {
   border-radius: 30px;
 }
 .progress-bar.progress-bar-default {
-  background: #0000FF;
+  background: #027BCE;
 }
 .progress-bar.progress-bar-success {
   background: #00e195;
@@ -1143,7 +1143,7 @@ a > img.fh5co-align-center {
 }
 
 .resp-tab-active {
-  color: #0000FF;
+  color: #027BCE;
 }
 
 .resp-tabs-list li {
@@ -1190,7 +1190,7 @@ a > img.fh5co-align-center {
   padding: 1em 2em;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading {
-  background: #0000FF;
+  background: #027BCE;
   color: #ffffff;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-heading h3 {
@@ -1214,7 +1214,7 @@ a > img.fh5co-align-center {
   text-transform: uppercase;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item.fh5co-best-offer .fh5co-pricing-table-item-heading {
-  background: #0000FF;
+  background: #027BCE;
   color: #ffffff;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item .fh5co-pricing-table-item-body {
@@ -1231,7 +1231,7 @@ a > img.fh5co-align-center {
   margin: 0 0 10px 0;
 }
 .fh5co-pricing-table-1 .fh5co-pricing-table-item.fh5co-best-offer .fh5co-pricing-table-item-body {
-  border: 2px solid #0000FF;
+  border: 2px solid #027BCE;
   border-top: none;
 }
 

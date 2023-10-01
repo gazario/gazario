@@ -10,6 +10,7 @@
     --ga_greenLight:#f5f8f5;
     --ga_grey:#2e2e2e;
     --ga_white:#ffffff;
+    --ga_background: #f8f3e0;
   }
 
   body {
@@ -19,6 +20,7 @@
     color: var(--ga_grey);
     font-weight: 300;
     letter-spacing: .05em;
+    background-color: var(--ga_background);
   }
   
   ::-webkit-selection {
