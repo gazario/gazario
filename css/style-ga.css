@@ -5,28 +5,35 @@
     font-weight: normal;
     font-style: normal;
   }
+  :root{
+    --ga_green:#008080;
+    --ga_greenLight:#f5f8f5;
+    --ga_grey:#2e2e2e;
+    --ga_white:#ffffff;
+  }
+
   body {
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 26px;
-    color: #2e2e2e;
+    color: var(--ga_grey);
     font-weight: 300;
     letter-spacing: .05em;
   }
   
   ::-webkit-selection {
-    color: #ffffff;
-    background: #7ee383;
+    color: var(--ga_white);
+    background: var(--ga_green);
   }
   
   ::-moz-selection {
-    color: #ffffff;
-    background: #7ee383;
+    color: var(--ga_white);
+    background: var(--ga_green);
   }
   
   ::selection {
-    color: #ffffff;
-    background: #7ee383;
+    color: var(--ga_white);
+    background: var(--ga_green);
   }
   
   a {
@@ -35,6 +42,7 @@
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    text-decoration: none;
   }
   a:hover, a:active, a:focus {
     outline: none;
@@ -42,7 +50,7 @@
   }
 
   .ga-intro {
-    font-weight: 300 !important;
+    font-weight: bolder !important;
     font-size: 40px;
     line-height: 27px;
     margin-bottom: 3em;
@@ -53,5 +61,10 @@
   .ga-half {
     float: left;
     width: 100%;
-    background: #f5f8f5;
+    background: var(--ga_greenLight);
+  }
+
+  .ga-logo{
+    max-width: auto;
+    height: 200px;
   }
