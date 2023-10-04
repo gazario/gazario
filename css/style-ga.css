@@ -13,6 +13,7 @@
     --ga_bleuProfond: #001233;
     --ga_turquoise: #39cbd8;
     --ga_sapin:#019b56;
+    --ga_purple : #87065c;
 
     --ga_blou: #05386B;
     --ga_grin:#5CDB95;
@@ -47,10 +48,11 @@
     font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 26px;
-    color: black;
-    font-weight: 300;
+    color: var(--ga_blou);
+    font-weight: 500;
     letter-spacing: .05em;
-    background-color: #EDEAE5;
+    background-color:#E6E5E1;
+    /*background-color: #EDEAE5;*/
     /*background-color: #11cfee;*/
     min-height: 100%;
     margin: 0;
@@ -124,7 +126,6 @@
     /* --------------HEADER-------------------*/
 
   .ga-intro {
-    font-family: 'Passion One', cursive;
     font-weight: bolder !important;
     font-size: 40px;
     line-height: 27px;
@@ -132,7 +133,7 @@
     margin-top: 1em;
     position: relative;
     padding-bottom: 30px;
-    color: black;
+    color: var(--ga_rougeCorail);
   }
 
   .ga-half {
@@ -193,11 +194,11 @@
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: black;
+    color: var(--ga_blou);
     padding: 4px 10px;
   }
   #ga_header #ga_nav li a:hover {
-    color:var(--ga_beige);
+    color:var(--ga_turquoise);
   }
   #ga_header #ga_nav li::after {
     position: absolute;
@@ -215,8 +216,8 @@
     content: '';
   }
   #ga_header #ga_nav li.active a {
-    color: #8a5277;
-    border-bottom: 4px solid #8a5277;
+    color:var(--ga_turquoise);
+    border-bottom: 4px solid var(--ga_turquoise);
   }
   @media screen and (max-width: 768px) {
     #ga_header #ga_nav {
@@ -266,13 +267,13 @@
      font-size: 30px;
      line-height: 40px;
      display: inline-block;
-     color: #8a5277;
+     color: #87065c;
    }
 
    .ga_btn_other_option {
     float: left;
     margin-right: 10px;
-    background-color: #026670;
+    background-color: #87065c;
     color: white;
     border-radius: 5px;
     padding: 1em;
