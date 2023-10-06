@@ -159,7 +159,7 @@
 
 .menu-bg, #menu {
   top: 0;
-  left: 0;
+  left: 1em;
   position: absolute;
 }
 
