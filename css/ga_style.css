@@ -105,6 +105,7 @@
 
  /*-----------------------BURGER--------------------------*/
 
+ @media screen and (max-width: 768px) {
  #menu {
   z-index: 2;
 }
@@ -148,7 +149,7 @@
 }
 
 .nav li a {
-  color: white;
+  color: var(--ga_bleuProfond);
   font-size: 20px;
   text-decoration: none;
 }
@@ -198,7 +199,7 @@
   height: 460px;
   transform: translate(-60%,-30%);
 }
-
+}
 
 
   /*----------------------WEBKIT---------------------------*/
@@ -313,16 +314,16 @@
     display: none;
   }
 }
-#ga_header #ga_nav {
+#ga_header .ga_nav {
   text-align: center;
 }
-#ga_header #ga_nav li {
+#ga_header .ga_nav li {
   display: inline-block;
   list-style: none;
   position: relative;
   padding-right: 20px;
 }
-#ga_header #ga_nav li a {
+#ga_header .ga_nav li a {
   font-weight: 600;
   font-size: 15px;
   text-transform: uppercase;
@@ -330,10 +331,10 @@
   color: var(--ga_blou);
   padding: 4px 10px;
 }
-#ga_header #ga_nav li a:hover {
+#ga_header .ga_nav li a:hover {
   color:var(--ga_turquoise);
 }
-#ga_header #ga_nav li::after {
+#ga_header .ga_nav li::after {
   position: absolute;
   right: 2px;
   top: 50%;
@@ -342,18 +343,18 @@
   width: 15px;
   background: var(--ga_federal);
 }
-#ga_header #ga_nav li:last-child::after {
+#ga_header .ga_nav li:last-child::after {
   width: 0;
   height: 0;
   background: none;
   content: '';
 }
-#ga_header #ga_nav li.active a {
+#ga_header .ga_nav li.active a {
   color:var(--ga_turquoise);
   border-bottom: 4px solid var(--ga_turquoise);
 }
 @media screen and (max-width: 768px) {
-  #ga_header #ga_nav {
+  #ga_header .ga_nav {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0;
@@ -365,25 +366,25 @@
     transition: all 0.2s ease;
   }
 
-  #ga_header #ga_nav ul {
+  #ga_header .ga_nav ul {
     padding: 0;
     margin: 0;
   }
-  #ga_header #ga_nav li {
+  #ga_header .ga_nav li {
     display: block;
     margin-bottom: 10px;
     padding: 0 !important;
     margin-left: -50px;
     opacity: 0;
   }
-  #ga_header #ga_nav li::after {
+  #ga_header .ga_nav li::after {
     background: transparent;
     width: 0;
     height: 0;
     background: none;
     content: '';
   }
-  #ga_header #ga_nav li a {
+  #ga_header .ga_nav li a {
     display: block;
     padding: 0 !important;
     margin: 0 !important;
