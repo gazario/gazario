@@ -118,7 +118,7 @@
 
 .nav li {
   list-style: none;
-  padding: 12px 0;
+  padding: 12px 5px;
 }
 
 .nav li a {
@@ -130,6 +130,14 @@
 .nav li a:hover {
   font-weight: bold;
 }
+
+.nav li:not(:last-child):after {
+  content: "-";
+  display: inline-block;
+  margin-left: 5px;
+}
+
+    /*---mobile---BURGER----*/
 
  @media screen and (max-width: 768px) {
  #menu {
