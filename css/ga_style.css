@@ -134,7 +134,7 @@
 .nav li:not(:last-child):after {
   content: "-";
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
     /*---mobile---BURGER----*/
@@ -146,6 +146,10 @@
 
 li {
   display:block;
+}
+
+.nav li:not(:last-child):after {
+  display: none;
 }
 
 #menu-bar {
@@ -187,7 +191,7 @@ li {
 }
 
 .nav li a {
-  color: var(--ga_bleuProfond);
+  color: white;
   font-size: 20px;
   text-decoration: none;
 }
