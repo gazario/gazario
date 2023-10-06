@@ -25,27 +25,27 @@
 		
 		<!-- Header -->
 		<header id="ga_header" role="banner">
+
+			<!--BURGER -->
+			<div id="menu">
+				<div id="menu-bar" onclick="menuOnClick()">
+				  <div id="bar1" class="bar"></div>
+				  <div id="bar2" class="bar"></div>
+				  <div id="bar3" class="bar"></div>
+				</div>
+				<nav class="nav" id="nav">
+				  <ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				  </ul>
+				</nav> 
+			  </div>
+			  
+			  <div class="menu-bg" id="menu-bg"></div>
+			<!--BURGER-->
+	
 			
-			<!-- Mobile Toggle Menu Button -->
-			<a href="#" class="js-ga_nav-toggle ga_nav-toggle"><i></i></a>
-			
-			<!-- Main Nav -->
-			<div id="ga_main_nav text-center">
-				<nav id="ga_nav" role="navigation">
-					<ul>
-						<li class="active">
-							<a href="index.html">Accueil</a>
-						</li>
-						<li>
-							<a href="#">Portfolio</a>
-						</li>
-						<li>
-							<a href="#">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<!-- Main Nav -->
 		</header>
 		<!-- Header -->
 		
@@ -53,10 +53,10 @@
 		<main>
 
 				<!-- Title -->
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row text-center">
 						<div class="col-12">
-							<h1 class="ga_intro">Web developpeur Full stack & Illustrateur</h1>
+							<h1>Developpement web Full stack & Illustration</h1>
 						</div>
 					</div>
 				</div>
@@ -69,7 +69,7 @@
 									<div class="col-md-3">
 										<img src="images/guillustrrLOGOprofond.png" id="ga_img_id" alt="">
 									</div>
-									<div class="col-md-8 col-md-push-1 col-sm-9 col-sm-push-1 p-5">
+									<div class="col-md-8 col-sm-9 p-2">
 										<div class="ga_section_title">
 											<h2 class="ga_title">Présentation</h2>
 										</div>
@@ -102,7 +102,9 @@
 			</div>
 		</footer>
 		<!-- Footer -->
-		
+
+		<!-- SCRIPT BURGER MENU -->
+		<script src="js/ga_burger.js"></script>
 	</body>
 
 </html>
