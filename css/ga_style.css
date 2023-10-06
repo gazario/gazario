@@ -318,6 +318,7 @@
    .ga_section_title .ga_title,
    .ga_page_title .ga_title {
      font-family: "Unica One", sans-serif;
+     /* police Unica One pour les titres*/
      text-transform: uppercase;
      /*border-bottom: 2px solid #2e2e2e;*/
      font-size: 30px;
