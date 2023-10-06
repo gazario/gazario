@@ -41,7 +41,7 @@
   /*--------------GENERAL------------------------*/
 
   html {
-    height: 100%;
+   height: 90%;
   }
 
   body {
@@ -52,10 +52,26 @@
     font-weight: 500;
     letter-spacing: .05em;
     background-color:#E6E5E1;
+
     min-height: 100%;
-    margin: 0;
-    padding: 0;
+    padding-bottom:100px; /* Hauteur du pied de page */
     position: relative;
+  
+  }
+
+
+  footer {
+    color: var(--ga_blou);
+    position:absolute;
+
+    bottom:0;  /* on le colle en bas */
+    width:100%;
+    height:100px;   /* Hauteur du pied de page */
+  }
+
+  * {
+    -moz-box-sizing: border-box; box-sizing: border-box;
+    /*Appliquée à l'ensemble des éléments, box-sizing va limiter la hauteur de <body> à 100%.*/
   }
 
   .container{
@@ -335,17 +351,11 @@
 
   /*---------------FOOTER----------------*/
 
-  footer {
 
-    color: var(--ga_blou);
-    position:absolute;
-    bottom:0;  /* on le colle en bas */
-    width:100%;
-    height:100px;   /* Hauteur du pied de page */
-  }
 
-  #ga_footer .ga_copyright {
+  .ga_copyright {
     font-size: 15px;
+    color: var(--ga_blou);
   }
   /*
   #ga_footer .ga_footer_widget {
@@ -356,6 +366,3 @@
       margin-bottom: 30px;
     }*/
   
-  #ga_footer .ga_copyright {
-    color: var(--ga_blou);
-  }
