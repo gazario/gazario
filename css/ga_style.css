@@ -41,7 +41,7 @@
   /*--------------GENERAL------------------------*/
 
   html {
-   height: 90%;
+   height: 95%;
   }
 
   body {
@@ -85,22 +85,7 @@
     text-decoration: none;
   }
 
-  h1 {
-    font-weight: bolder !important;
-    font-size: 40px;
-    line-height: 27px;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    position: relative;
-    padding-bottom: 30px;
-    color: var(--ga_rougeCorail);
-  }
-  @media screen and (max-width: 768px) {
-    h1 {
-    line-height: 1em;
-    margin-top: 1em;
-    }
-  }
+
 
 
  /*-----------------------NAV-&-BURGER--------------------------*/
@@ -123,8 +108,9 @@
 
 .nav li a {
   color: var(--ga_bleuProfond);
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: none;
+  font-family: "Unica One", sans-serif;
 }
 
 .nav li a:hover {
@@ -133,9 +119,17 @@
 
 .nav li:not(:last-child):after {
   content: "-";
+  font-family: "Unica One", sans-serif;
+  font-size: 30px;
   display: inline-block;
   margin-left: 20px;
 }
+
+#encours a 
+	{
+    font-weight: bold;
+    /*border-bottom: 2px solid var(--ga_bleuProfond);*/
+	} 
 
     /*---mobile---BURGER----*/
 
@@ -192,7 +186,7 @@ li {
 
 .nav li a {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: none;
 }
 
@@ -341,8 +335,10 @@ li {
   width : 40%;
   margin-left: auto;
   margin-right: auto;
-  } 
-/*---------------NAV---------------------------------------*/
+  }
+  
+  
+/*---------------HEADER---------------------------------------*/
 
 #ga_header {
   display: block;
@@ -356,83 +352,25 @@ li {
     display: none;
   }
 }
-#ga_header .ga_nav {
-  text-align: center;
-}
-#ga_header .ga_nav li {
-  display: inline-block;
-  list-style: none;
+
+h1 {
+  font-weight: bolder !important;
+  font-size: 40px;
+  line-height: 27px;
+  margin-bottom: 1em;
+  margin-top: 1em;
   position: relative;
-  padding-right: 20px;
-}
-#ga_header .ga_nav li a {
-  font-weight: 600;
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--ga_blou);
-  padding: 4px 10px;
-}
-#ga_header .ga_nav li a:hover {
-  color:var(--ga_turquoise);
-}
-#ga_header .ga_nav li::after {
-  position: absolute;
-  right: 2px;
-  top: 50%;
-  content: '';
-  height: 2px;
-  width: 15px;
-  background: var(--ga_federal);
-}
-#ga_header .ga_nav li:last-child::after {
-  width: 0;
-  height: 0;
-  background: none;
-  content: '';
-}
-#ga_header .ga_nav li.active a {
-  color:var(--ga_turquoise);
-  border-bottom: 4px solid var(--ga_turquoise);
+  padding-bottom: 30px;
+  color: var(--ga_rougeCorail);
 }
 @media screen and (max-width: 768px) {
-  #ga_header .ga_nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-  }
-
-  #ga_header .ga_nav ul {
-    padding: 0;
-    margin: 0;
-  }
-  #ga_header .ga_nav li {
-    display: block;
-    margin-bottom: 10px;
-    padding: 0 !important;
-    margin-left: -50px;
-    opacity: 0;
-  }
-  #ga_header .ga_nav li::after {
-    background: transparent;
-    width: 0;
-    height: 0;
-    background: none;
-    content: '';
-  }
-  #ga_header .ga_nav li a {
-    display: block;
-    padding: 0 !important;
-    margin: 0 !important;
+  h1 {
+  line-height: 1em;
+  margin-top: 1em;
   }
 }
-/* --------------HEADER------------------------------------*/
+
+/*--------------SECTION-PRESENTATION-------------------------*/
 
   .ga_half {
     width: 100%;
@@ -443,26 +381,6 @@ li {
     width: 300px ;
     margin: 0;
   }
-
-  #ga_header {
-      margin-top: 3em;
-      margin-bottom: 0em;
-  }
-  @media screen and (max-width: 768px) {
-    #ga_header {
-      margin-top: 4em;
-      margin-bottom: 2em;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    #ga_header #ga_logo {
-      margin-bottom: .5em;
-    }
-  }
- 
-
-/*--------------SECTION-PRESENTATION-------------------------*/
 
    .ga_section_title .ga_title,
    .ga_page_title .ga_title {
@@ -510,12 +428,5 @@ li {
     max-width: auto;
     height: 70px;
   }
-  /*
-  #ga_footer .ga_footer_widget {
-    margin-bottom: 10px;
-  }
-  @media screen and (max-width: 768px) {
-    #ga_footer .ga_footer_widget {
-      margin-bottom: 30px;
-    }*/
+  
   
