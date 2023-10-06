@@ -103,11 +103,41 @@
   }
 
 
- /*-----------------------BURGER--------------------------*/
+ /*-----------------------NAV-&-BURGER--------------------------*/
+ li {
+  display: inline-block;
+}
+
+#nav {
+  justify-content: center;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: var(--ga_bleuProfond);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
 
  @media screen and (max-width: 768px) {
  #menu {
   z-index: 2;
+}
+
+li {
+  display:block;
 }
 
 #menu-bar {
