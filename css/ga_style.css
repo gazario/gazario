@@ -125,7 +125,7 @@
   color: var(--ga_bleuProfond);
   font-size: 30px;
   text-decoration: none;
-  font-family: "Unica One", sans-serif;
+  font-family: "UnicaOne";
 }
 
 .nav li a:hover {
@@ -134,7 +134,7 @@
 
 .nav li:not(:last-child):after {
   content: "-";
-  font-family: "Unica One", sans-serif;
+  font-family: "UnicaOne";
   font-size: 30px;
   display: inline-block;
   margin-left: 20px;
