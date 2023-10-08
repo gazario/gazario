@@ -24,10 +24,30 @@
     --ga_blou: #05386B;
     --ga_beige:#EDF5E1;
     --ga_turquoise: #39cbd8;
-    --ga_purple : #87065c;
+  
     --ga_rougeCorail:#FF595A;
 
+/*----------NOVEMBER----------------------------*/
+    --ga_firstFrost: #CBDCED;
+    --ga_morningFog:#8FA9B5;
+    --ga_alpine:#6587A1;
+    --ga_evergreen:#38524C;
+    --ga_lakeSummit:#3F778C;
+    --ga_blackIce:#323D42;
+    --ga_dawnPinkDark: #87065c;
+
 /*--------------------------------------*/
+
+    --ga_amythest:#140d4f;
+    --ga_keylime:#D1E0DE;
+    --ga_charcoal:#383838;
+
+    /*--ga_headerBackground:#141E46;*/
+    --ga_headerBackground:#190b2c;
+    --ga_headerFont:#1B9C85;
+    --ga_bodyBackground:#190b2c;
+    --ga_bodyFont:#CBDCED;
+    --ga_titleAndButtons:#1B9C85;
 
 
     /*
@@ -61,10 +81,10 @@
     font-family: "Lato";
     font-size: 18px;
     /*line-height: 26px; *//*interligne*/
-    color: var(--ga_blou);
+    color: var(--ga_bodyFont);
     font-weight: 500;
     letter-spacing: .05em; /*espace horizontale entre les lettres*/
-    background-color:#E6E5E1;
+    background-color:var(--ga_bodyBackground);
 
     min-height: 100%;
     padding-bottom:80px; /* Hauteur du pied de page */
@@ -120,7 +140,7 @@
 }
 
 .nav li a {
-  color: var(--ga_bleuProfond);
+  color: var(--ga_headerFont);
   font-size: 30px;
   text-decoration: none;
   font-family: "UnicaOne";
@@ -136,6 +156,7 @@
   font-size: 30px;
   display: inline-block;
   margin-left: 20px;
+  color: var(--ga_headerFont);
 }
 
 #encours a 
@@ -359,7 +380,7 @@ li {
   float: left;
   margin-bottom: 1em;
   width: 100%;
-  background-color: var(--ga_turquoise);
+  background-color: var(--ga_headerBackground);
 }
 @media screen and (max-width: 768px) {
   #ga_header #ga_main_nav {
@@ -409,14 +430,14 @@ h1 {
      font-size: 30px;
      line-height: 40px;
      display: inline-block;
-     color: #87065c;
+     color: var(--ga_titleAndButtons);
    }
 
    .ga_btn_other_option {
     float: left;
     margin-right: 10px;
-    background-color: #87065c;
-    color: white;
+    background-color: var(--ga_titleAndButtons);
+    color: var(--ga_headerBackground);
     border-radius: 5px;
     padding: 1em;
     -webkit-transition: all 0.5s ease;
