@@ -422,8 +422,8 @@ h1 {
   }
 
   .ga_btn_other_option:hover{
-    background-color: var(--ga_yellowBoss);
-    color: var(--ga_bodyBackground);
+    background-color: var(--ga_racingBlue);
+    color: var(--ga_nightBlue);
   }
 
 
