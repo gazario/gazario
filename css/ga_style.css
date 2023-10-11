@@ -41,12 +41,21 @@
     
 
     /*--ga_headerBackground:#141E46;*/
-    --ga_headerBackground:#190b2c;
-    --ga_headerFont:#39cbd8;
-    --ga_bodyBackground:#190b2c;
+    --ga_headerBackground:#0b253c;
+    /*--ga_headerFont:#39cbd8;*/
+    --ga_headerFont:#2c93bc;
+    --ga_bodyBackground:#0b253c;
     --ga_bodyFont:#CBDCED;
-    --ga_titleAndButtons:#03be6a;
+    --ga_titleAndButtons:#e5ff80;
+
     --ga_firstFrost: #CBDCED;
+    --ga_racingBlue:#2c93bc;
+    --ga_dawnBlue: #004455;
+    --ga_nightBlue:#0b253c;
+    --ga_yellowBoss: #e5ff80;
+    --ga_oranjeBoss:#ff7f63;
+    --ga_purpleBoss:#7f51ff;
+    --ga-blou:#9C51B6;
 
 /*--------------------------------------*/
     /*
@@ -85,6 +94,9 @@
     color: var(--ga_bodyFont);
     font-weight: 500;
     letter-spacing: .05em; /*espace horizontale entre les lettres*/
+    /*background-image: url('../images/BCK3.png');
+    background-size: cover;
+    background-position: center;*/
     background-color:var(--ga_bodyBackground);
 
     min-height: 100%;
@@ -418,7 +430,8 @@ h1 {
   }
 
   #ga_img_id{
-    width: 300px ;
+    /*width: 300px ;*/
+    max-width: 100%;
     margin: 0;
   }
 
