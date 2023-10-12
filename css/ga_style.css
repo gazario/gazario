@@ -23,10 +23,12 @@
 /*-------COULEURS----------------------*/
 
  
-    --ga_headerBackground:#0b253c;
-    --ga_headerFont:#2c93bc;
-    --ga_bodyBackground:#0b253c;
-    --ga_bodyFont:#CBDCED;
+    --ga_headerBackground:#7fc6b6ff;
+    --ga_headerFont:rgb(6, 56, 156);
+    /*--ga_headerFont:#31647bff;*/
+    
+    --ga_bodyBackground:#7fc6b6ff;
+    --ga_bodyFont:#2c93bc;
     --ga_titleAndButtons:#00eebb;
 
     --ga_firstFrost: #CBDCED;
@@ -48,7 +50,7 @@
     font-family: "Lato";
     font-size: 18px;
     /*line-height: 26px; *//*interligne*/
-    color: white;
+    color: var(--ga_bodyFont);
     font-weight: 500;
     letter-spacing: .05em; /*espace horizontale entre les lettres*/
     /*background-image: url('../images/BCK3.png');
