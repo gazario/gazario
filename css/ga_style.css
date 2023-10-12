@@ -103,6 +103,10 @@
   justify-content: center;
 }
 
+.nav {
+  padding-top: 35px;
+}
+
 .nav ul {
   padding: 0 22px;
 }
@@ -114,7 +118,8 @@
 
 .nav li a {
   color: var(--ga_headerFont);
-  font-size: 30px;
+  font-size: 35px;
+
   text-decoration: none;
   font-family: "UnicaOne";
 }
@@ -126,7 +131,8 @@
 .nav li:not(:last-child):after {
   content: "-";
   font-family: "UnicaOne";
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
   display: inline-block;
   margin-left: 20px;
   color: var(--ga_headerFont);
@@ -135,7 +141,7 @@
 #encours a 
 	{
     font-weight: bold;
-    /*border-bottom: 2px solid var(--ga_bleuProfond);*/
+    /*border-bottom: 5px solid var(--ga_headerFont);*/
 	} 
 
     /*---mobile---BURGER----*/
@@ -144,6 +150,11 @@
  #menu {
   z-index: 2;
 }
+
+.nav {
+  
+}
+
 
 li {
   display:block;
@@ -180,6 +191,7 @@ li {
 .nav {
   transition: 0.3s ease;
   display: none;
+  padding-top: 0;
 }
 
 .nav ul {
