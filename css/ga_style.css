@@ -18,32 +18,58 @@
     font-weight: bold;
   }
 
+  @font-face {
+    font-family: 'Finland';
+    src: url("../fonts/finland_rounded/Finland\ Rounded\ Thin.ttf") format("truetype");
+    font-weight: regular;
+  }
+
   :root{
 
 /*-------COULEURS----------------------*/
 
  
-    --ga_headerBackground:#7fc6b6ff;
-    --ga_headerFont:rgb(6, 56, 156);
+    --ga_headerBackground:#f2f2f2ff;
+    --ga_headerFont:#040577ff;
     /*--ga_headerFont:#31647bff;*/
     
-    --ga_bodyBackground:#7fc6b6ff;
-    --ga_bodyFont:#2c93bc;
-    --ga_titleAndButtons:#00eebb;
+    --ga_bodyBackground:#f2f2f2ff;
+    --ga_bodyFont:#040577ff;
+    --ga_titleAndButtons:#040577ff;
 
     --ga_firstFrost: #CBDCED;
     --ga_nightBlue:#0b253c;
-    --ga_racingBlue:#2c93bc;
+
     --ga_greensh: #00eebb;
     --ga_purpleBoss:#a859ca;
     --ga-bloulouh : #22afd2;
+
+    --ga_forestIci : #013328;
+    --ga_bloulagoune : #191718;
+
+    --ga_neige: #dfebe9ff;
+    /*--ga_bleuClair : #5f98b5ff; */
+    --ga_bleuVert:#01596fff;
+    --ga_bleuMarine : #262d47ff;
+    --ga_vert : #70bd85ff;
+    --ga_jaune : #bbc48bff;
+
+
+    /***************************/
+    --ga_blou:		  #1d388fff;
+    --ga_blouDip:		#040577ff;
+    --ga_griin:		  #0b83a9ff;
+    --ga_griinDip:	#035b83ff;
+    --ga_gri:	    	#f2f2f2ff;
+    --ga_griDip:		#ecececff;
+    --ga_almostBack:#0d0d0dff;
 
   }
 
   /*--------------GENERAL------------------------*/
 
   html {
-   height: 95%;
+   height: 80%;
   }
 
   body {
@@ -374,16 +400,16 @@ li {
 }
 
 h1 {
-  font-family: 'orkney';
+  font-family: 'Finland';
   font-weight: bolder !important;
   /*color: #CBDCED;*/
-  color: white;
-  font-size: 50px;
+  color: #1381a2ff;
+  font-size: 80px;
   line-height: 1em;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
   position: relative;
-  padding-bottom: 30px;
+
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -400,7 +426,9 @@ h1 {
 
   .ga_half {
     width: 100%;
-    background: var(--ga_background);
+    /*background: var(--ga_griDip);*/
+    border-radius: 10px;
+    /*box-shadow: 5px 5px 2px 1px var(--ga_griDip);*/
   }
 
   #ga_img_id{
@@ -425,7 +453,7 @@ h1 {
     float: left;
     margin-right: 10px;
     font-weight: bold;
-    background-color: #00eebb;
+    background-color: var(--ga_griin);
     color: var(--ga_bodyBackground);
     border-radius: 5px;
     padding-left: 1em;
@@ -460,7 +488,7 @@ h1 {
 
 
   .ga_copyright {
-    font-size: 12px;
+    font-size: 15px;
     color: var(--ga_headerFont);
     margin-bottom: 0;
   }
