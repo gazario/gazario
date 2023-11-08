@@ -454,7 +454,7 @@ h1 {
      font-size: 30px;
      line-height: 40px;
      display: inline-block;
-     color: var(--ga_dark);
+     color: var(--ga_almostWhite);
    }
 
    .ga_btn_other_option {
