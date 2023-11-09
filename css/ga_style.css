@@ -30,6 +30,14 @@
     font-weight: regular;
   }
 
+  @font-face {
+    font-family: 'mona_shark';
+    src: url("../fonts/helgoland/Helgoland.otf") format("opentype");
+    font-weight: regular;
+  }
+
+
+
   :root{
 
 /*-------COULEURS----------------------*/
@@ -100,7 +108,8 @@
     
     background-size: cover;
     /*background-position: center;*/
-    background-color:var(--ga_bleuVert);
+    /* background-color: var(--ga_jaune); */
+    background: linear-gradient(var(--ga_jaune), var(--ga_almostWhite));
 
     min-height: 100%;
     padding-bottom:80px; /* Hauteur du pied de page */
@@ -425,10 +434,10 @@ li {
 }
 
 h1 {
-  font-family: 'Tulpen';
+  font-family: 'mona_shark';
   font-weight: bolder !important;
   /*color: #CBDCED;*/
-  color: var(--ga_almostWhite);
+  color: var(--ga_dark);
   font-size: 90px;
   line-height: 1em;
   margin-bottom: 0.5em;
@@ -472,14 +481,14 @@ h1 {
      /* font-weight: bold; */
      line-height: 40px;
      display: inline-block;
-     color: var(--ga_dark);
+     color:#191970;
    }
 
    .ga_btn_other_option {
     float: left;
     margin-right: 10px;
     /* font-weight: bold; */
-    background-color: var(--ga_dark);
+    background-color: #191970;
     color: var(--ga_almostWhite);
     border-radius: 5px;
     padding-left: 1em;
