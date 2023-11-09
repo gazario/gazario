@@ -82,13 +82,18 @@
 
     /**PALETTE GUILLUSTRR*************************/
     --ga_dark:       #182628;
+    --ga_almostWhite:#F2F2F2;
+
+
+
     --ga_fedBlue:   #140d4f;
     --ga_bleuVert:rgb(65, 103, 112);
     --ga_bleucccc:rgb(9, 114, 138);
-    --ga_aquoi:      #65CCB8;
+    --ga_aquoi:      #ddb92a;
     --ga_vertClair:  #57BA98;
     --ga_sapin:      #3B945E;
-    --ga_almostWhite:#F2F2F2;
+
+
 
   }
 
@@ -96,20 +101,18 @@
 
   html {
    height: 100%;
+
   }
 
   body {
     font-family: "Lato";
     font-size: 18px;
     /*line-height: 26px; *//*interligne*/
-    color: var(--ga_almostWhite);
+    color: var(--ga_dark);
     font-weight: 500;
     letter-spacing: .05em; /*espace horizontale entre les lettres*/
-    
-    background-size: cover;
-    /*background-position: center;*/
-    /* background-color: var(--ga_jaune); */
-    background: linear-gradient(var(--ga_jaune), var(--ga_almostWhite));
+    background-color: var(--ga_almostWhite);
+
 
     min-height: 100%;
     padding-bottom:80px; /* Hauteur du pied de page */
@@ -481,7 +484,7 @@ h1 {
      /* font-weight: bold; */
      line-height: 40px;
      display: inline-block;
-     color:#191970;
+     color:var(--ga_aquoi);
    }
 
    .ga_btn_other_option {
