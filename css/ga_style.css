@@ -24,6 +24,12 @@
     font-weight: regular;
   }
 
+  @font-face {
+    font-family: 'Tulpen';
+    src: url("../fonts/tulpen-one/TulpenOne-Regular.ttf") format("truetype");
+    font-weight: regular;
+  }
+
   :root{
 
 /*-------COULEURS----------------------*/
@@ -49,7 +55,7 @@
 
     --ga_neige: #dfebe9ff;
     /*--ga_bleuClair : #5f98b5ff; */
-    --ga_bleuVert:#01596fff;
+    --ga_bleuVert:rgb(65, 103, 112);
     --ga_bleuMarine : #262d47ff;
     --ga_vert : #70bd85ff;
     --ga_jaune : #bbc48bff;
@@ -64,8 +70,13 @@
     --ga_griDip:		#ecececff;
     --ga_almostBack:#0d0d0dff;
 
+    --ga_fedBlue:   #140d4f;
+
     /**PALETTE GUILLUSTRR*************************/
     --ga_dark:       #182628;
+    --ga_fedBlue:   #140d4f;
+    --ga_bleuVert:rgb(65, 103, 112);
+    --ga_bleucccc:rgb(9, 114, 138);
     --ga_aquoi:      #65CCB8;
     --ga_vertClair:  #57BA98;
     --ga_sapin:      #3B945E;
@@ -89,7 +100,7 @@
     
     background-size: cover;
     /*background-position: center;*/
-    background-color:var(--ga_aquoi);
+    background-color:var(--ga_bleuVert);
 
     min-height: 100%;
     padding-bottom:80px; /* Hauteur du pied de page */
@@ -414,11 +425,11 @@ li {
 }
 
 h1 {
-  font-family: 'Finland';
+  font-family: 'Tulpen';
   font-weight: bolder !important;
   /*color: #CBDCED;*/
   color: var(--ga_almostWhite);
-  font-size: 80px;
+  font-size: 90px;
   line-height: 1em;
   margin-bottom: 0.5em;
   /* margin-top: 0.5em; */
@@ -427,7 +438,7 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   h1 {
-  font-size: 60px;
+  font-size: 70px;
   line-height: 1.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -455,19 +466,20 @@ h1 {
    .ga_page_title .ga_title {
      font-family: "UnicaOne";
      /* police Unica One pour les titres*/
-     text-transform: uppercase;
+     /* text-transform: uppercase; */
      /*border-bottom: 2px solid #2e2e2e;*/
      font-size: 30px;
+     /* font-weight: bold; */
      line-height: 40px;
      display: inline-block;
-     color: var(--ga_almostWhite);
+     color: var(--ga_dark);
    }
 
    .ga_btn_other_option {
     float: left;
     margin-right: 10px;
-    font-weight: bold;
-    background-color: var(--ga_sapin);
+    /* font-weight: bold; */
+    background-color: var(--ga_dark);
     color: var(--ga_almostWhite);
     border-radius: 5px;
     padding-left: 1em;
