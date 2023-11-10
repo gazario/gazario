@@ -100,11 +100,12 @@
   /*--------------GENERAL------------------------*/
 
   html {
-   height: 100%;
+   height: 90%;
 
   }
 
   body {
+    height: 100%;
     font-family: "Lato";
     font-size: 18px;
     /*line-height: 26px; *//*interligne*/
@@ -484,14 +485,14 @@ h1 {
      /* font-weight: bold; */
      line-height: 40px;
      display: inline-block;
-     color:var(--ga_aquoi);
+     color:var(--ga_bodyFont);
    }
 
    .ga_btn_other_option {
     float: left;
     margin-right: 10px;
     /* font-weight: bold; */
-    background-color: #191970;
+    background-color: var(--ga_dark);
     color: var(--ga_almostWhite);
     border-radius: 5px;
     padding-left: 1em;
@@ -504,7 +505,7 @@ h1 {
   }
 
   .ga_btn_other_option:hover{
-    background-color: var(--ga_vertClair);
+    background-color: var(--ga_bodyFont);
     color: var(--ga_almostWhite);
   }
 
