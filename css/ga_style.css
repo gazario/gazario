@@ -284,7 +284,7 @@ li {
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background: radial-gradient(circle, var(--ga_sapin), var(--ga_sapin));
+  background: radial-gradient(circle, var(--ga_bleu), var(--ga_bleu));
   border-radius: 50%;
   transition: 0.3s ease;
 }
