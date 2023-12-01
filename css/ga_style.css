@@ -126,7 +126,7 @@
   footer {
     text-align: center;
     color: var(--ga_blou);
-    position:absolute;
+    /* position:absolute; */
 
     bottom:0;  /* on le colle en bas */
     width:100%;
