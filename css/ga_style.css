@@ -453,7 +453,7 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   h1 {
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -558,14 +558,14 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
   }
-  /*
+ 
   .item {
 
-    flex: 0 0 auto;
-    animation: animate 5s linear infinite;
+    width: 100px;
+    height: 100px;
 
   }
-
+ /*
   .container:hover .item {
     animation-play-state: paused;
   }
