@@ -508,7 +508,7 @@ h1 {
   }
 
   .ga_btn_other_option:hover{
-    background-color: var(--ga_bodyFont);
+    background-color: var(--ga_bleu);
     color: var(--ga_almostWhite);
   }
 
