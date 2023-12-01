@@ -55,7 +55,7 @@
     --ga_nightBlue:#0b253c;
 
     --ga_greensh: #00eebb;
-    --ga_purpleBoss:#a859ca;
+    --ga_purpleBoss:#013328;
     --ga-bloulouh : #22afd2;
 
     --ga_forestIci : #013328;
@@ -83,6 +83,7 @@
     /**PALETTE GUILLUSTRR*************************/
     --ga_dark:       #182628;
     --ga_almostWhite:#F2F2F2;
+    --ga_bleu:       #164450;
 
 
 
@@ -91,7 +92,7 @@
     --ga_bleucccc:rgb(9, 114, 138);
     --ga_aquoi:      #ddb92a;
     --ga_vertClair:  #57BA98;
-    --ga_sapin:      #3B945E;
+    --ga_sapin:      #00da6d;
 
 
 
@@ -100,7 +101,7 @@
   /*--------------GENERAL------------------------*/
 
   html {
-   height: 90%;
+   height: 100%;
 
   }
 
@@ -441,8 +442,9 @@ h1 {
   font-family: 'mona_shark';
   font-weight: bolder !important;
   /*color: #CBDCED;*/
+  /*color: #036160;*/
   color: var(--ga_dark);
-  font-size: 90px;
+  font-size: 70px;
   line-height: 1em;
   margin-bottom: 0.5em;
   /* margin-top: 0.5em; */
@@ -467,6 +469,7 @@ h1 {
     /*background: var(--ga_griDip);*/
     border-radius: 10px;
     /*box-shadow: 5px 5px 2px 1px var(--ga_griDip);*/
+    margin-bottom: 50px;
   }
 
   #ga_img_id{
@@ -485,7 +488,7 @@ h1 {
      /* font-weight: bold; */
      line-height: 40px;
      display: inline-block;
-     color:var(--ga_bodyFont);
+     color:var(--ga_bleu);
    }
 
    .ga_btn_other_option {
@@ -537,4 +540,58 @@ h1 {
     height: 70px;
   }
   
+  /*--------SLIDER---------------------------------*/
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    font-size: xx-small !important;
+
+  }
+
+  .item img{
+    max-width: 70px;
+    max-height: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /*
+  .item {
+
+    flex: 0 0 auto;
+    animation: animate 5s linear infinite;
+
+  }
+
+  .container:hover .item {
+    animation-play-state: paused;
+  }
+  @keyframes animate {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @media (max-width:767px) {
+    .wrapper {
+      width: 95%;
+      border-radius: 0;
+      padding: 0;
+    }
+  } */
+
+  /* *
+  .
+  charge les roles foreach desus
+  document role charge je supprimme tout 
+  je regarde ce que jai recu du formulaires
+  je fais un persist */
+
+
+
   
