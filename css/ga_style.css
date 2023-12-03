@@ -151,10 +151,19 @@
     }
   }
 
-  a:hover, a:active, a:focus {
+  a:active, a:focus {
     outline: none;
     text-decoration: none;
 
+  }
+
+  a:hover {
+    color: #90CAF9;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: var(--ga_bleu);
   }
 
 
@@ -632,13 +641,16 @@ h1 {
   }
 
   .portfolio-img{
-    width: 90%;
+    max-width: 90%;
   }
 
   .portfolio-img>img{
     width: 100%;
   }
   
+  .article-dev{
+    border-bottom: 2px solid var(--ga_bleu);
+  }
 
   /* body {
     background: #eee;
